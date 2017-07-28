@@ -1,0 +1,45 @@
+body {
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-duration: 2s;
+    background-color: lightblue;
+}
+
+.container {
+    background-color: white;
+    border-radius: 0.625rem 0.625rem 0.625rem 0.625rem;
+}
+
+.txtareaQuestion {
+    border-radius: 0.625rem 0.625rem 0.625rem 0.625rem;
+    height: 4rem;
+    text-align: left;
+    resize: none;
+}
+
+.txtareaQuestion:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 0.625rem #9ecaed;
+}
+
+.btnSendQuestion {
+    margin-top: 0.625rem;
+    background-color: #2555a3;
+    border: none;
+    text-align: center;
+    padding: 0.625rem 0.625rem;
+    color: white;
+    border-radius: 0.625rem 0.625rem 0.625rem 0.625rem;
+    transition: background-color 0.5s ease-out;
+}
+
+.btnSendQuestion:hover {
+    background-color: #163466;
+}
+
+.txtareaAnswer {
+    border-radius: 0.625rem 0.625rem 0.625rem 0.625rem;
+    height: 6rem;
+    text-align: left;
+    resize: none;
+}
