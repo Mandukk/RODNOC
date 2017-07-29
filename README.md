@@ -5,6 +5,7 @@ Front-end: </br>
     -React </br>
     -Redux </br>
     -Webpack </br>
+    -Bootstrap 4 </br>
 
 Back-end: </br>
     -Node.js <strong>(Express)</strong> </br>
