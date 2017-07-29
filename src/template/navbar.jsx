@@ -5,6 +5,14 @@ import Grid from './grid';
 
 const Menu = styled.nav`
     border-bottom: 2px solid #49882F;
+    background: transparent;
+`;
+
+const NavBrand = styled.a`
+    &:hover {
+        color: #49882F;
+    }
+    color: green;
 `;
 
 const NavLink = styled.a`
@@ -26,7 +34,7 @@ export default class Navbar extends Component {
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <a className="navbar-brand" href="#">RODNOC</a>
+                <NavBrand className="navbar-brand" href="#">RODNOC</NavBrand>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                     <li className="nav-item">
